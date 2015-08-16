@@ -1,0 +1,19 @@
+{
+  "name": "Site Kindling",
+  "version": "0.1.0",
+  "authors": [
+    "Jeff Nordstedt <jeff.nordstedt@finnpartners.com>"
+  ],
+  "description": "Responsive site kindling files using Bower, Gulp, and Foundation",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.2"
+  }
+}
