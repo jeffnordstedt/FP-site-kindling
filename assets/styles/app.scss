@@ -1,6 +1,10 @@
 @import 'foundation/settings';
 @import 'foundation';
 
-body {
-	background-color: #edeff0;
-}
+// Globals
+@import 'global/mixins';
+
+// Pages
+@import 'pages/basic-structure';
+@import 'pages/home';
+

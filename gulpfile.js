@@ -41,6 +41,7 @@ gulp.task('scripts', function() {
 		paths.bower + '/jquery/dist/jquery.js',
 		paths.bower + '/foundation/js/foundation.js',
 		paths.bower + '/foundation/js/foundation/foundation.alert.js',
+		paths.assets + '/scripts/picturefill.js',
 		paths.assets + '/scripts/app.js'
 	])
 	.pipe(concat('app.js'))
